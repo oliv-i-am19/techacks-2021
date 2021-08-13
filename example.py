@@ -1,27 +1,10 @@
-# this is just example code, don't worry if you don't understand it
-# see here if you're interested in learning more about Fibonacci:
-# https://www.geeksforgeeks.org/python-program-for-program-for-fibonacci-numbers-2/
+# Creating and sharing new files
 
-# Function for nth Fibonacci number
-def fibonacci(n):
-   
-    # Check if input is 0 then it will
-    # print incorrect input
-    if n < 0:
-        print("Incorrect input")
- 
-    # Check if n is 0
-    # then it will return 0
-    elif n == 0:
-        return 0
- 
-    # Check if n is 1,2
-    # it will return 1
-    elif n == 1 or n == 2:
-        return 1
- 
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
+# After creating a remote repo, you will want to clone it and create a local copy on your personal machine so that you can easily make changes to the
+# project. Once you have created a local repo, you can navigate to the appropriate folder and add/change/remove files as you normally would. 
+# When you are done/want to save your work, open up your terminal and navigate to the local repo folder.
+# Enter git add <file name> - This tells Git to track a file (AKA tells Git which files have changes that you want to save)
+# Enter git commit -m "commit message here" - The commit message is your opportunity to make a note of what changes you made. You MUST include a message!
+# Enter git push OR git push origin <branch name> - This pushes all of your local changes to the remote repo. Check the remote repo to see your changes!
 
-n = fibonacci(3)
-print(n)
+print("Congratulations! You've committed and pushed your first changes")
